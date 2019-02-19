@@ -1,0 +1,36 @@
+.supervisor {
+    border:1px solid black;
+}
+
+.supervisor > span {
+    font-weight: bold;
+}
+
+#employeeInput {
+    width:45%;
+}
+
+#empSearchDiv {
+    width:45%
+}
+
+#topLine {
+    display:flex;
+    justify-content:space-between;
+    margin:auto;
+}
+
+#employeeDisplay {
+    width: 97%;
+    margin:auto;
+}
+
+#employee-Container {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#employee-Container > div {
+    flex: 1 1 25%;
+    margin:1em;
+}

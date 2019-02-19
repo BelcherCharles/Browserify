@@ -1,0 +1,62 @@
+{
+  "employees": [
+    {
+      "FirstName": "Kennedy",
+      "LastName": "Belcher",
+      "Gender": "Female",
+      "Email": "PrincessK@aol.com",
+      "Phone": "(304) 121-3434",
+      "Birthdate": "2014-02-10",
+      "Department": "Customer Service",
+      "Supervisor": false,
+      "id": 3
+    },
+    {
+      "FirstName": "Lincoln",
+      "LastName": "Belcher",
+      "Gender": "Male",
+      "Email": "LilRoo@prodigy.com",
+      "Phone": "(304) 676-8989",
+      "Birthdate": "2016-12-09",
+      "Department": "Production",
+      "Supervisor": false,
+      "id": 4
+    },
+    {
+      "FirstName": "Carol",
+      "LastName": "Belcher",
+      "Gender": "Female",
+      "Email": "OnTheFloat@aol.com",
+      "Phone": "(304) 546-2633",
+      "Birthdate": "1949-07-16",
+      "Department": "Administrative",
+      "Supervisor": true,
+      "id": 6
+    },
+    {
+      "FirstName": "Charles",
+      "LastName": "Belcher",
+      "Gender": "Male",
+      "Email": "BelcherCharles@yahoo.com",
+      "Phone": "(304) 932-2120",
+      "Birthdate": "1980-07-19",
+      "Department": "Executive",
+      "Supervisor": true,
+      "id": 9
+    },
+    {
+      "FirstName": "Scout",
+      "LastName": "Belcher",
+      "Gender": "Male",
+      "Email": "PrinceScout@prodigy.com",
+      "Phone": "N/A",
+      "Birthdate": "2006-12-01",
+      "Department": "Customer Service",
+      "Supervisor": false,
+      "id": 10
+    },
+    {
+      "id": 11
+    }
+  ]
+}

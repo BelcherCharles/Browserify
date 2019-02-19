@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport content=width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles\styles.css">
+  </head>
+
+<body>
+
+  <div id="topLine">
+    <fieldset id="employeeInput">
+      <legend>Add A New Employee</legend>
+      <label for=firstName>First Name</label>
+      <input id="empFirstName" name="employee_creator" type="text" autofocus />
+      <br>
+      <label for="lastName">Last Name</label>
+      <input id="empLastName" name="employee_creator" type="text" autofocus />
+      <br>
+      <label for="Gender">Gender</label><br>
+        <select id="empGender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select><br>
+      <label for="emailAddress">Email Address</label>
+      <input id="empEmail" name="employee_creator" type="email" autofocus />
+      <br>
+      <label for="phoneNumber">Phone Number</label>
+      <input id="empPhone" name="employee_creator" type="tel" autofocus />
+      <br>
+      <label for="birthday">Birthdate</label>
+      <input id="empBirthdate" name="employee_creator" type="date" autofocus />
+      <br>
+      <label for="department">Department</label>
+      <select id="empDepartment">
+        <option value="Executive">Executive</option>
+        <option value="Administrative">Administrative</option>
+        <option value="Production">Production</option>
+        <option value="Customer Service">Customer Service</option>
+        <option value="Maintenance">Maintenance</option>
+      </select>
+      <br>
+      <label for="supervisor">Supervisor?</label>
+      <input id="empSupervisor" name="employee_creator" type="checkbox" autofocus />
+      <br>
+      <button id="createNewEmployee">Create New Employee</button>
+    </fieldset>
+    <br>
+
+    <fieldset id=empSearchDiv>
+    <legend>Employees Search</legend>
+    <label>Search For Employees By Department:</label>
+      <select id="departmentSearch" name="empDeptSearch">
+        <option value="All">All Depts.</option>
+        <option value="Executive">Executive</option>
+        <option value="Administrative">Administrative</option>
+        <option value="Production">Production</option>
+        <option value="Customer Service">Customer Service</option>
+        <option value="Maintenance">Maintenance</option>
+      </select>
+    <br>
+    <br>
+    <label>Search For Department Supervisors?</label><input id="isSuper" name="super_Search" type="checkbox" autofocus />
+    <br>
+    <br>
+    <label for="firstNameSearch">Search Employees By First Name:</label>
+    <input id="firstNameSearch" name="firstNameSearch" type="text" autofocus />
+    <br>
+    <br>
+    <label for="lastNameSearch">Search Employees By Last Name:</label>
+    <input id="lastNameSearch" name="lastNameSearch" type="text" autofocus />
+    </fieldset>
+    </div>
+    <br>
+    <br>
+    <fieldset id="employeeDisplay">
+      <legend>Employee Listing</legend>
+    <div id="employee-Container">
+    </div>
+    </fieldset>
+
+    <script src="bundle.js"></script>
+
+  </body>
+
+</html>
